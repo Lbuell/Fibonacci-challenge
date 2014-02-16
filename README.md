@@ -1,4 +1,4 @@
-# Personal Portfolio App
+# A simple Recursive Fibonacci solution
 <!-- If you'd like to use a logo instead uncomment this code and remove the text above this line
 
   ![Logo](URL to logo img file goes here)
@@ -7,36 +7,56 @@
 
 By [Liam Buell](https://github.com/Lbuell/)
 
-
-[![Build Status](https://travis-ci.org/Lbuell/Portfolio.png?branch=master)](https://travis-ci.org/Lbuell/Portfolio)
-
-
-[![Code Climate](https://codeclimate.com/github/gringocl/myfamilysinfo.png)](https://codeclimate.com/github/gringocl/myfamilysinfo)
-
 ## Description
 **Portfolio** An evolving personal portfolio website including blog posts, project posts, and polymorphic comments
 
-## Installation
-
-Fork and clone the repo and push it to heroku or your own server setup:
 
 ## Information
 
-Current Screenshots
+Sample output:
 
-https://https://www.dropbox.com/s/x565sx06sgnuwmb/Screenshot%20from%202014-02-12%2014%3A38%3A17.png
-
-### Known Issues
-
-If you discover any bugs, feel free to create an issue on GitHub fork and
-send us a pull request.
-
-[Issues List](https://github.com/lbuell/portfolio/issues).
+2.0.0-p353 :001 >   def fibonacci( n )
+2.0.0-p353 :002?>       return  n  if n <= 1
+2.0.0-p353 :003?>       fibonacci( n - 1 ) + fibonacci( n - 2 )
+2.0.0-p353 :004?>   end
+ => nil 
+2.0.0-p353 :005 > 
+2.0.0-p353 :006 >   puts fibonacci( 1 )
+1
+ => nil 
+2.0.0-p353 :007 > puts fibonacci( 2 )
+1
+ => nil 
+2.0.0-p353 :008 > puts fibonacci( 3 )
+2
+ => nil 
+2.0.0-p353 :009 > puts fibonacci( 4 )
+3
+ => nil 
+2.0.0-p353 :010 > puts fibonacci( 5 )
+5
+ => nil 
+2.0.0-p353 :011 > puts fibonacci( 6 )
+8
+ => nil 
+2.0.0-p353 :012 > puts fibonacci( 7 )
+13
+ => nil 
+2.0.0-p353 :013 > puts fibonacci( 8 )
+21
+ => nil 
+2.0.0-p353 :014 > puts fibonacci( 9 )
+34
+ => nil 
+2.0.0-p353 :015 > puts fibonacci( 10 )
+55
+ => nil 
+2.0.0-p353 :016 >
 
 ## Authors
 
 * Liam Buell (https://github.com/Lbuell/)
-
+Thanks to stackoverflow for such great examples!
 
 ## Contributing
 
