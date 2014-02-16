@@ -1,4 +1,4 @@
-# A simple Recursive Fibonacci solution
+# A simple Fibonacci solution
 <!-- If you'd like to use a logo instead uncomment this code and remove the text above this line
 
   ![Logo](URL to logo img file goes here)
@@ -6,9 +6,6 @@
 -->
 
 By [Liam Buell](https://github.com/Lbuell/)
-
-## Description
-**Portfolio** An evolving personal portfolio website including blog posts, project posts, and polymorphic comments
 
 
 ## Information
